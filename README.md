@@ -21,10 +21,17 @@ Lists are arrays that have the following characterizations:
   my_list = [item_1, item_2, item_3]
 
   # Accessing an item
-  INDEX = 1
+  INDEX = 1 # Can be negative 
   item = my_list[INDEX]
 
-  
+  # Checking existing item in list
+  some_item = 'some_item'
+  if some_item in my_list: print("I found it") 
+
+  # Checking the number of elements inside a list
+  print(len(my_list))
+
+  # 
 ```
 
 # References
